@@ -32,7 +32,7 @@ PASSWORD = 'Hax123456'
 try:
 #    BARKKEY = os.environ['BARKKEY']
  BARKKEY = 'QTMoutnh4rpJXA6KFXE6JT'
-    barkKey = 1
+ barkKey = 1
 except:
     print('No BarkKey')
     barkKey = 0

@@ -24,10 +24,10 @@ urlLogin = 'https://hax.co.id/login'
 SpeechToTextURL = 'https://speech-to-text-demo.ng.bluemix.net/'
 
 # secret
-USERNAME = os.environ['USERNAME']
-PASSWORD = os.environ['PASSWORD']
+USERNAME = os.environ["USERNAME"]
+PASSWORD = os.environ["PASSWORD"]
 try:
-    BARKKEY = os.environ['BARKKEY']
+    BARKKEY = os.environ["BARKKEY"]
     barkKey = 1
 except:
     print('No BarkKey')

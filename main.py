@@ -165,6 +165,9 @@ except Exception as e:
 # main
 time.sleep(10)
 print('fill username')
+print(USERNAME)
+print(PASSWORD)
+print(BARKKEY)
 driver.find_element(By.XPATH, '//*[@id="text"]').send_keys(USERNAME)
 print('fill password')
 driver.find_element(By.XPATH, '//*[@id="password"]').send_keys(PASSWORD)

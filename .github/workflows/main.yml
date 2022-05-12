@@ -27,9 +27,9 @@ jobs:
             # USERNAME: ${{ secrets.USERNAME }}
             # PASSWORD: ${{ secrets.PASSWORD }}
             # BARKKEY: ${{ secrets.BARKKEY }}
-            USERNAME: 'U'
-            PASSWORD: 'P'
-            BARKKEY: 'B'
+            USERNAME: '5203056965'
+            PASSWORD: 'Hax123456'
+            BARKKEY: 'QTMoutnh4rpJXA6KFXE6JT'
           run: |
             python3 ./main.py
         
